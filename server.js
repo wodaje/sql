@@ -11,23 +11,18 @@ route.use(express.json());
 
 var connection = mysql.createConnection({
   host: "localhost",
-
-  // Your port; if not 3306
   port: 3306,
-
-  // Your username
   user: "root",
-
-  // Your password
   password: "root",
   database: "employees_db"
 });
 
 connection.connect(function(err) {
   if (err) throw err;
-  // runSearch();
+  console.log(employees_db)
 });
 
 route.listen(PORT, () =>
   console.log(`Server listening on: http://localhost:${PORT}`)
 );
+
