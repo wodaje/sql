@@ -13,7 +13,7 @@ INSERT INTO roles (id, title, salary, department_id) VALUES (1155, 'Singer', 200
 INSERT INTO roles (id, title, salary, department_id) VALUES (2424, 'Designer', 30000, 202);
 INSERT INTO roles (id, title, salary, department_id) VALUES (1212, 'Musician', 40000, 302);
 INSERT INTO roles (id, title, salary, department_id) VALUES (2021, 'Cleaner', 20000, 402);
-INSERT INTO roles (id, title, salary, department_id) VALUES (1212, 'Manager', 20000, 602);
+INSERT INTO roles (id, title, salary, department_id) VALUES (6666, 'Manager', 20000, 602);
 
 INSERT INTO department (id, dept) VALUES (302, 'Preformers');
 INSERT INTO department (id, dept) VALUES (202, 'Planning');

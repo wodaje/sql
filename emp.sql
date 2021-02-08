@@ -26,5 +26,5 @@ CREATE TABLE department (
   PRIMARY KEY (id)
 );
 
-
+SELECT * FROM employee
 
